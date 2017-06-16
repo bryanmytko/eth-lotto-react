@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #DC5E61;
+}
+
+.mainContainer {
+  width: 1024px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  background: #2E3E4B;
+  height: 100px;
+}
+
+.headline {
+  width: 100%;
+  background: #F36A6D;
+  border: 1px solid #FF9595;
+}
+
+.headlineContent {
+  width: 1024px;
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Cabin", "sans-serif";
+}
+
+.headlineContent h1 {
+  text-transform: uppercase;
+  font-size: 78px;
+  text-align: center;
+  letter-spacing: .1em;
+  line-height: 23px;
+}
+
+.headlineContent h2 {
+  font-size: 23px;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* Progress Bar */
+.progressBar {
+  float: left;
+  margin: 30px 0 0 0;
+  height: 420px;
+}
+
+.progressBar > svg {
+   height: 100%;
+   display: block;
+}
+
+.progressbar__label {
+  font-size: 33px;
+  text-align: center;
+  font-family: "Cabin", "sans-serif";
+}
+
+.border {
+  /*padding: 20px 0 0 20px;
+  height: 440px;
+  width: 440px;
+  background: #F36A6D;
+  border-radius: 50%;*/
+}
+
+.join {
+  float: left;
+  width: 400px;
+}
+
+.join .btn {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  height: 26px;
+  width: 285px;
+  background: #86E0D3;
+  font-family: "Cabin", "sans-serif";
+  font-size: 23px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.join .btn:hover {
+  background: #86E0ff;
+}
+
+footer {
+  width: 100%;
+  background: #2E3E4B;
+  height: 200px;
+}
